@@ -103,9 +103,6 @@ En este laboratorio **cada alumno configura su propia federación WIF**, igual q
 Ejecuta en Cloud Shell o en una terminal con Google Cloud CLI autenticado:
 
 ```bash
-gcloud auth login
-gcloud config set project utec-posgrado-01
-
 export PROJECT_ID="utec-posgrado-01"
 export PROJECT_NUMBER="$(gcloud projects describe "$PROJECT_ID" --format='value(projectNumber)')"
 
